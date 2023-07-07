@@ -1,0 +1,26 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 60%;
+    margin: auto;
+    background-color: #222;
+    color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.submitButton {
+    background-color: #0F0;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submitButton:hover {
+    background-color: #0A0;
+}

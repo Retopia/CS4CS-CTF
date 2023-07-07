@@ -2,10 +2,11 @@
     background: black;
     color: lime;
     padding: 10px;
-    overflow: auto;
     font-family: 'Consola', monospace;
-    font-size: 1em; /* adjust as needed */
-    line-height: 1.5; /* adjust as needed */
+    font-size: 1em;
+    line-height: 1.5;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .inputLine {

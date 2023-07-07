@@ -24,7 +24,7 @@ const Challenge1 = () => {
       </p>
       <p>25 26 23 24</p>
       {base64Lines.map((line, index) => (
-        <p className={styles.line} style={{ animationDelay: `${index * 1.8}s` }} key={index}>{line}</p>
+        <p className={styles.line} style={{ animationDelay: `${index * 0.7}s` }} key={index}>{line}</p>
       ))}
     </div>
   );

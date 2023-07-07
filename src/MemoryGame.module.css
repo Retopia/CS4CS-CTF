@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.button {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.hidden {
+    background: #333;
+    color: #333;
+}

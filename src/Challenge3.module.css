@@ -1,0 +1,45 @@
+.foreground {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: lime;
+    padding: 20px;
+    height: 80vh;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.grantedAccess, .deniedAccess {
+    text-align: center;
+}
+
+.grantedText, .deniedText {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.gridButton {
+    background: lime;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.gridButton:hover {
+    background: #a5cd39;
+}

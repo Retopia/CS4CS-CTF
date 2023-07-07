@@ -5,11 +5,12 @@
     background-color: #420d1f; /* dark red */
     color: #f6e5e9; /* soft pink */
 }
-.container h1, .container h2 {
+
+.container h2 {
     text-align: center;
-    color: #f78a8a; /* bright red */
 }
 .container h1 {
+    color: #f78a8a; /* bright red */
     margin-top: 50px;
 }
 .container p {
