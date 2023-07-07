@@ -1,0 +1,33 @@
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 1em;
+    background-color: #000;  /* black color */
+    color: #0f0;  /* bright green, often associated with "hackery" themes */
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 1em;
+    background-color: #000;  /* black color */
+    color: #0f0;  /* bright green, often associated with "hackery" themes */
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.line {
+    overflow-wrap: break-word;
+    text-align: left;
+    white-space: nowrap;  /* Ensures that the text will be on a single line */
+    overflow: hidden;  /* Ensures that the overflowing text will be hidden */
+    width: 0;  /* Initial width, will change during animation */
+    animation: typing 2s steps(30, end) forwards; /* The 'forwards' makes the end state of the animation persist after the animation completes */
+}

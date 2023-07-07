@@ -1,0 +1,32 @@
+.terminal {
+    background: black;
+    color: lime;
+    padding: 10px;
+    overflow: auto;
+    font-family: 'Consola', monospace;
+    font-size: 1em; /* adjust as needed */
+    line-height: 1.5; /* adjust as needed */
+}
+
+.inputLine {
+    display: flex;
+    margin: 0; /* ensure no default margin */
+    padding: 0; /* ensure no default padding */
+}
+  
+.inputLine > span {
+    flex-shrink: 0;
+}
+  
+.inputLine > input {
+    flex-grow: 1;
+    color: lime;
+    background: black;
+    outline: none;
+    border: none;
+    font-family: 'Consola', monospace;
+    font-size: 1em; /* match .terminal font-size */
+    line-height: 1.5; /* match .terminal line-height */
+    margin: 0; /* ensure no default margin */
+    padding: 0; /* ensure no default padding */
+}

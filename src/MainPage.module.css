@@ -1,0 +1,23 @@
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #420d1f; /* dark red */
+    color: #f6e5e9; /* soft pink */
+}
+.container h1, .container h2 {
+    text-align: center;
+    color: #f78a8a; /* bright red */
+}
+.container h1 {
+    margin-top: 50px;
+}
+.container p {
+    line-height: 1.6;
+}
+.challenge {
+    background-color: #9c5258; /* light red */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
