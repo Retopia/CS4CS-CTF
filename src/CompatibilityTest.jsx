@@ -16,15 +16,24 @@ const CompatibilityTest = () => {
         const { name, value } = event.target;
         setAnswers({
             ...answers,
-            [name]: value,
+            [name]: parseInt(value, 10) || 0,
         });
     };
 
+
     const handleSubmit = (event) => {
         event.preventDefault();
+        
         const encoded = Object.values(answers).join("");
+        // Check if all questions have been answered
+        if (encoded.length < 20) {
+            alert('Please answer all questions');
+            return;
+        }
+    
         setHash(encoded);
     };
+    
 
     return (
         <div>

@@ -9,13 +9,30 @@
 .container h2 {
     text-align: center;
 }
+
 .container h1 {
     color: #f78a8a; /* bright red */
     margin-top: 50px;
 }
+
 .container p {
     line-height: 1.6;
 }
+
+.activityContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activity {
+    background-color: #9c5258; /* light red */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    flex: 1;
+    margin: 10px; /* add some margin between the divs */
+}
+
 .challenge {
     background-color: #9c5258; /* light red */
     padding: 20px;
