@@ -64,7 +64,7 @@ const Challenge2 = () => {
             }
             message = `ACCESS GRANTED!!\nYour Flag is: Flag{${out}}`;
         } else {
-            message = `WRONG!\nStandard Flag Value is: 742\nYour Flag Value is: ` + sum;
+            message = `WRONG!\nStandard Flag Value is: 742`;
         }
 
         setHistory((oldHistory) => [...oldHistory, `> ${key}`, message]);
