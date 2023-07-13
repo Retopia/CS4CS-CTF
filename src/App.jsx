@@ -15,7 +15,7 @@ function App() {
       <Routes>  
         <Route path="/" element={<MainPage />} />
         {/* <Route path="/challenge1" element={<Challenge1 />} /> */}
-        {/* <Route path="/challenge2" element={<Challenge2 />} /> */}
+        <Route path="/challenge2" element={<Challenge2 />} />
         <Route path="/comptest" element={<CompatibilityTest />} />
         <Route path="/compscore" element={<CompatibilityScore />} />
         {/* Add more routes as needed */}
