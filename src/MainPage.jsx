@@ -21,12 +21,12 @@ const MainPage = () => {
                     </p>
                 </div>
             </div>
-            <div className={styles.challenge}>
+            {/* <div className={styles.challenge}> */}
                 {/* <h2>ASCII Value Guessing</h2>
                 <p>
                     The Orcas manage to find a locked digital crate that was dropped by one of the sentries. To unlock it, they need to enter a correct key. The crate only grants access if the correct ASCII values are entered.
                 </p> */}
-            </div>
+            {/* </div> */}
             {/* <div className={styles.challenge}>
                 <h2><Link to="/challenge3">Challenge 3: Decoding the Asterisk Message</Link></h2>
                 <p>
