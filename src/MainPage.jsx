@@ -7,7 +7,7 @@ const MainPage = () => {
         <div className={styles.container}>
             {/* <h1>CS4CS CTF - Seeking Control of HOME</h1> */}
 
-            <div className={styles.activityContainer}>
+            {/* <div className={styles.activityContainer}>
                 <div className={styles.activity}>
                     <h2><Link to="/comptest">Compatibility Test</Link></h2>
                     <p>
@@ -20,12 +20,9 @@ const MainPage = () => {
                         Enter 2 compatibility "hashes" here to see how compatible they are
                     </p>
                 </div>
-            </div>
+            </div> */}
             <div className={styles.challenge}>
-                <h2><Link to="/challenge2">ASCII Value Guessing</Link></h2>
-                <p>
-                    The Orcas manage to find a locked digital crate that was dropped by one of the sentries
-                </p>
+                <h2><Link to="/challenge2">DE-L0ck the 67 82 65 84 69</Link></h2>
             </div>
             {/* <div className={styles.challenge}>
                 <h2><Link to="/challenge3">Challenge 3: Decoding the Asterisk Message</Link></h2>
