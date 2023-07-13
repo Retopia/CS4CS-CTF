@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import styles from "./Challenge2.module.css";
 
 const Challenge2 = () => {
-    const [key, setKey] = useState("");
+    const [key, setKey] = useState("");``
     const [history, setHistory] = useState([]);
     const inputRef = useRef(null);
 
@@ -64,7 +64,7 @@ const Challenge2 = () => {
             }
             message = `ACCESS GRANTED!!\nYour Flag is: Flag{${out}}`;
         } else {
-            message = `WRONG!\nStandard Flag Value is: 742`;
+            message = `WRONG!\n`;
         }
 
         setHistory((oldHistory) => [...oldHistory, `> ${key}`, message]);

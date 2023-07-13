@@ -26,13 +26,13 @@ const MainPage = () => {
                 </div>
             </div>
             <div className={styles.challenge}>
-                <h2><Link to="/challenge1">Unlock the Crate</Link></h2>
+                <h2>Unlock the Crate</h2>
                 <p>
                     A set of instructions to access the outstation sentries' control system has been intercepted. Unfortunately, the instructions are encoded using a Vigenere cipher and the Python decoder program is broken. The Orcas need to fix the program and decode the instructions. The program itself also appears to be encrypted.
                 </p>
             </div>
             <div className={styles.challenge}>
-                <h2><Link to="/challenge2">ASCII Value Guessing</Link></h2>
+                <h2>ASCII Value Guessing</h2>
                 <p>
                     The Orcas manage to find a locked digital crate that was dropped by one of the sentries. To unlock it, they need to enter a correct key. The crate only grants access if the correct ASCII values are entered.
                 </p>
