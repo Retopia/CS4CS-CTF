@@ -23,45 +23,53 @@ const CompatibilityTest = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        
+
         const encoded = Object.values(answers).join("");
         // Check if all questions have been answered
         if (encoded.length < 20) {
             alert('Please answer all questions');
             return;
         }
-    
+
         setHash(encoded);
     };
-    
+
 
     return (
         <div>
             <form className={styles.formContainer} onSubmit={handleSubmit}>
                 <h1>Compatibility Test</h1>
                 {[
-                    "I find it easy to understand new programming concepts.",
-                    "I am confident in my ability to solve coding challenges.",
-                    "I am familiar with common cybersecurity threats and how to prevent them.",
-                    "I understand the importance of secure coding practices.",
-                    "I am interested in learning more about network security.",
-                    "I often think about how I can improve the security of my own digital information.",
-                    "I am familiar with the principles of ethical hacking.",
-                    "I am confident in my understanding of encryption and decryption methods.",
-                    "I am aware of the legal and ethical implications of cybersecurity.",
-                    "I am interested in pursuing a career in cybersecurity.",
-                    "I keep up-to-date with the latest cybersecurity news and trends.",
-                    "I am confident in my ability to create a secure password.",
-                    "I am familiar with the concept of social engineering in cybersecurity.",
-                    "I understand how firewalls and antivirus software work.",
-                    "I am comfortable discussing cybersecurity concepts with others.",
-                    "I am aware of the role of cryptography in cybersecurity.",
-                    "I am familiar with different types of malware and their impacts.",
-                    "I have an understanding of how a VPN can enhance internet security.",
-                    "I am aware of the impact of cybercrime on businesses and individuals.",
-                    "I understand the importance of regularly updating software for security reasons."
-
-                    // Add your other questions here
+                    "Would you ever dress as the opposite gender for a day?",
+                    "If given a chance, would you choose to live forever?",
+                    "Would you trade looks for intelligence or vice versa?",
+                    "Would you eat only ice-cream for an entire week if you could?",
+                    "Would you attend school at night if you could sleep all day?",
+                    "Would you rather time travel to the past or the future?",
+                    "Would you want your favorite celebrity to teach you every subject in school?",
+                    "Do you think it's okay to read your friend's texts if they leave their phone open?",
+                    "Would you consider yourself as the President of your country?",
+                    "Do you think the use of AI can ever surpass human intelligence?",
+                    "Would you rather be an animal than a human in your next life?",
+                    "Would you switch lives with your favorite movie character?",
+                    "Can money buy happiness?",
+                    "How likely are you to survive a zombie apocalypse?",
+                    "Would you spend a day as a ghost if you could?",
+                    "Do you believe in life on other planets?",
+                    "Would you rather have superhuman strength or the ability to read minds?",
+                    "Would you give up all technology for a year to win $1 million?",
+                    "Would you eat your least favorite food for every meal if it meant you never had to go to school?",
+                    "Would you rather have your whole life broadcast on national television or lose the ability to use social media forever?",
+                    "Would you rather spend a year in the past or a year in the future?",
+                    "Is pineapple an acceptable pizza topping?",
+                    "If you found a magic genie, is world peace the first thing you'd wish for?",
+                    "Can cats and dogs get along?",
+                    "Would you rather spend the night in a haunted house or a night in a forest alone?",
+                    "Would you drink a bottle of ketchup for $500?",
+                    "Would you let a spider crawl all over you for $1000?",
+                    "Do your parents understand your generation?",
+                    "Would you rather live without music or without movies?",
+                    "Would you use time travel to change something in your past?"
                 ].map((questionText, index) => (
                     <Question
                         key={index}

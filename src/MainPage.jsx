@@ -11,7 +11,7 @@ const MainPage = () => {
                 <div className={styles.activity}>
                     <h2><Link to="/comptest">Compatibility Test</Link></h2>
                     <p>
-                        Week 1 Day 4's Activity is here! Answer 20 questions to get your compatibility "hash"
+                        Week 1 Day 4's Activity is here! Answer 30 questions to get your compatibility "hash"
                     </p>
                 </div>
                 <div className={styles.activity}>
