@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  width: 80%; /* Limit the width to 80% of its parent */
+  margin: 0 auto; /* Center the container */
+}
+
+.inputBox {
+  margin: 20px 0;
+  width: 50%; /* Limit the width of the input box */
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
