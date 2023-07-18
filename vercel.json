@@ -1,8 +1,8 @@
 {
-    "routes": [
+    "rewrites": [
         {
-            "src": "/scav",
-            "dest": "/scav"
+            "source": "/(.*)",
+            "destination": "/"
         }
     ]
 }
