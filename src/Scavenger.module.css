@@ -9,6 +9,10 @@
   margin: 0 auto; /* Center the container */
 }
 
+.para {
+  white-space: pre-wrap;
+}
+
 .inputBox {
   margin: 20px 0;
   width: 50%; /* Limit the width of the input box */

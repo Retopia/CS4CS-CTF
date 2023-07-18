@@ -13,13 +13,13 @@ import Scavenger from './Scavenger'
 function App() {
   return (
     <Router>
-      <Routes>  
+      <Routes>
         <Route path="/" element={<MainPage />} />
         {/* <Route path="/challenge1" element={<Challenge1 />} /> */}
         {/* <Route path="/challenge2" element={<Challenge2 />} />
         <Route path="/comptest" element={<CompatibilityTest />} />
         <Route path="/compscore" element={<CompatibilityScore />} /> */}
-        <Route path="/scav" element={<Scavenger  />} />
+        <Route path="/scav" element={<Scavenger />} />
         {/* Add more routes as needed */}
       </Routes>
     </Router>

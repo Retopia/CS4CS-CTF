@@ -15,16 +15,17 @@ const Scavenger = () => {
     "Ages go by fast,\nPeople, they walk past,\nYet remain I here,\nUnable to bark or hear\nNever moving an inch,\nYou can sit beside me on a bench.\nAs plastic as can be\nBrooklyn Commons in I be",
     "Where technology hums and innovation takes flight, seek the symphony of keys, a melodic delight. In the heart of MetroTech, where work and art unite, discover the instrument that brings melodies to life",
     "Elementary, my dear Watson! Embark on a quest right where you are to uncover an ancient calculating device, where numbers dance and solutions arise. Seek the tool of calculation, an instrument revered, with beads and wires entwined. Unlock the secrets of the past, where mathematics and history are entwined.",
-    "I chill without ice, preserving what's nice.\nIn a frosty abobe, freshness I provide.\nA box that stores, where coldness resides."
+    "I chill without ice, preserving what's nice.\nIn a frosty abobe, freshness I provide.\nA box that stores, where coldness resides.",
+    "5+5\nSet your sights on the tier of tens\nYour destination lies in an altitude of ten\nAscend to the double digits\nThe highest score in Olympic figure skating\nHow many players are on a basketball team\nA common rating for an exceptional film\nThe base of the decimal numbering system\nThe atomic number of neon\nThe number of provinces in Canada\nThe number of innings in a regulation baseball game"
   ];
 
   const answers = [
     "remote access trojan/rat",
     "transport layer security/tls",
-    "secure sockets layer/ssl",
+    "secure sockets layer/secure socket layer",
     "netscape",
     "mozilla firefox/firefox",
-    "def con",
+    "def con/defcon",
   ];
 
   const handleChange = (e) => {
@@ -51,12 +52,16 @@ const Scavenger = () => {
       <h1>Scavenger Hunt</h1>
       <form onSubmit={handleSubmit}>
         {typeof questions[step] === 'string' ?
-          <p>{questions[step]}</p> :
+          <p className={styles.para}>{questions[step]}</p> :
           questions[step]
         }
         <div className={styles.inputContainer}>
-          <input className={styles.inputBox} value={userInput} onChange={handleChange} />
-          <button type="submit">Submit</button>
+          {step < questions.length - 1 ? (
+            <>
+              <input className={styles.inputBox} value={userInput} onChange={handleChange} />
+              <button type="submit">Submit</button>
+            </>
+          ) : null}
         </div>
       </form>
     </div>
