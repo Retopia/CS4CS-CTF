@@ -24,8 +24,11 @@ const MainPage = () => {
             {/* <div className={styles.challenge}>
                 <h2><Link to="/challenge2">DE-L0ck the 67 82 65 84 69</Link></h2>
             </div> */}
-            <div className={styles.challenge}>
+            {/* <div className={styles.challenge}>
                 <h2><Link to="/scav">Scavenger Hunt</Link></h2>
+            </div> */}
+            <div className={styles.challenge}>
+                <h2><Link to="/chat">Chat</Link></h2>
             </div>
             {/* <div className={styles.challenge}>
                 <h2><Link to="/challenge3">Challenge 3: Decoding the Asterisk Message</Link></h2>
