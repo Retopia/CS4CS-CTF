@@ -10,6 +10,8 @@ import CompatibilityScore from './CompatibilityScore';
 import Scavenger from './Scavenger'
 import Chat from './Chat'
 import Flag from './Flag'
+import HomePage from './HomePage'
+import Week2 from './Week2'
 // import other challenge components
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
         {/* <Route path="/scav" element={<Scavenger />} /> */}
         <Route path="/chat" element={<Chat />} />
         <Route path="/chat/h3110" element={<Flag />} />
+        <Route path="/home" element={<HomePage />} />
+        <Route path="/week2" element={<Week2 />} />
         {/* Add more routes as needed */}
       </Routes>
     </Router>

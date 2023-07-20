@@ -27,7 +27,7 @@ const Chat = () => {
     let timeouts = [];
 
     chatLog.forEach((item, index) => {
-      delay += 1000; // Change the delay as needed.
+      delay += 1500; // Change the delay as needed.
       const timeout = setTimeout(() => {
         setDisplayedChat(prev => [...prev, item]);
 
