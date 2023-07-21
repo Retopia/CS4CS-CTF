@@ -7,16 +7,16 @@ const Week2 = () => {
     const [completed, setCompleted] = useState(false);
 
     const questions = [
-        "malicious software that encrypts files or locks computer systems until a ransom is paid\nROMAN GENERAL!!!!!\nEg: CS4CS -> JZ11JZ",
-        "Permission to read information in an information system\nlen((SGVsbA==))",
-        "process of identifying and assessing potential risks in order to determine appropriate actions to mitigate them\nif(true)",
-        "decentralized digital currency that operates on a technology called blockchain\nSuppose there is a digital forensics investigation happening, and each day, the digital forensics team can analyze 1.25 terabytes (TB) of data. They are given a set of digital evidence totaling 15 terabytes.\n\nFinalAnswer = Answer - 9",
-        'hacking technique that involves systematically trying all possible combinations to guess a password or encryption key\nA HTTP response header named "X-Content-Type-Options" can be used to protect against MIME type confusion attacks. If a website wanted to enable this protection, what value should it set for the "X-Content-Type-Options" header?\nNumber equivalent of the answer??????',
-        'network of infected computers, controlled by a single entity, used for malicious activities\nIn TCP, the checksum field is the 16th field in the header. It is a mandatory field, which means it is always present even if its value is zero. What is the length of the checksum field in the TCP header in bytes?',
-        'error or flaw in software that causes unexpected behavior\nWhen analyzing packets in Wireshark, one of the displayed columns is "Protocol". For example, you might see protocols like "TCP", "UDP", "HTTP", etc. If you captured a packet that was part of a web request, and this packet was carrying the actual data of the HTTP request, what would be the protocol displayed in this column for this packet? ans= num(protocol)',
-        "using advanced search techniques to find sensitive information or vulnerabilities via Google search\nlen(cybersecurity)%7",
-        "unit of data transfer rate equal to one billion bits per second\ndef function(use_the value_given_above):\ncount = 0\nnumber_str = str(use_the value_given_above)\nfor digit in number_str:\nif digit == '0':\ncount += 1\nreturn count\n\nFinal Answer = Answer/3",
-        "good+bad = hacker\napply && operator on each binary digit of 200"
+        "key: malicious software that encrypts files or locks computer systems until a ransom is paid\nvalue: ROMAN GENERAL!!!!!\nEg: CS4CS -> JZ11JZ",
+        "key Permission to read information in an information system\nvalue: len((SGVsbA==))",
+        "key: process of identifying and assessing potential risks in order to determine appropriate actions to mitigate them\nvalue: if(true)",
+        "key: decentralized digital currency that operates on a technology called blockchain\nvalue: Suppose there is a digital forensics investigation happening, and each day, the digital forensics team can analyze 1.25 terabytes (TB) of data. They are given a set of digital evidence totaling 15 terabytes.\nThe question is, how many days will it take to analyze all the data if they take 1 day off every 4 days?\n\nFinalAnswer = Answer - 9",
+        'key: hacking technique that involves systematically trying all possible combinations to guess a password or encryption key\nvalue: A HTTP response header named "X-Content-Type-Options" can be used to protect against MIME type confusion attacks. If a website wanted to enable this protection, what value should it set for the "X-Content-Type-Options" header?\nNumber equivalent of the answer??????',
+        'key: network of infected computers, controlled by a single entity, used for malicious activities\nvalue: In TCP, the checksum field is the 16th field in the header. It is a mandatory field, which means it is always present even if its value is zero. What is the length of the checksum field in the TCP header in bytes?',
+        'key: error or flaw in software that causes unexpected behavior\nvalue: When analyzing packets in Wireshark, one of the displayed columns is "Protocol". For example, you might see protocols like "TCP", "UDP", "HTTP", etc. If you captured a packet that was part of a web request, and this packet was carrying the actual data of the HTTP request, what would be the protocol displayed in this column for this packet? ans= num(protocol)',
+        "key: using advanced search techniques to find sensitive information or vulnerabilities via Google search\nvalue: len(cybersecurity)%7",
+        "key: unit of data transfer rate equal to one billion bits per second\nvalue:\ndef function(use_the value_given_above):\ncount = 0\nnumber_str = str(use_the value_given_above)\nfor digit in number_str:\nif digit == '0':\ncount += 1\nreturn count\n\nFinal Answer = Answer/3",
+        "key: good+bad = hacker\nvalue: apply && operator on each binary digit of 200"
     ];
 
     const answers = [
