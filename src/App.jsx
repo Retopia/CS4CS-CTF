@@ -27,7 +27,7 @@ function App() {
         <Route path="/chat" element={<Chat />} />
         <Route path="/chat/h3110" element={<Flag />} />
         <Route path="/home" element={<HomePage />} />
-        {/* <Route path="/week2" element={<Week2 />} /> */}
+        <Route path="/week2" element={<Week2 />} />
         {/* Add more routes as needed */}
       </Routes>
     </Router>

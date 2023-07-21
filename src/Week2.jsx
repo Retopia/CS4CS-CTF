@@ -50,7 +50,8 @@ const Week2 = () => {
                     Follow the pattern, each row in line,
                     But the answer lies in a column's shine.
                 </p>
-                <p>A realm of myriad fields, where bits reside,
+                <p>
+                    A realm of myriad fields, where bits reside,
                     Ordering their rank, they quietly confide.
                     In this place of silent chatter, a rule is subtly set,
                     Least Bit reigns, a scheme of hidden threat.
