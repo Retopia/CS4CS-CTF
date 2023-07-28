@@ -39,3 +39,36 @@
     margin-bottom: 20px;
     border-radius: 10px;
 }
+
+.formContainer {
+    background-color: #9c5258; /* light red */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.label {
+    margin-bottom: 10px;
+}
+
+.input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 10px;
+    background-color: #f78a8a; /* bright red */
+    color: #f6e5e9; /* soft pink */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block; /* makes the button not take up full width */
+    width: auto; /* overwrite the full width if defined elsewhere */
+}

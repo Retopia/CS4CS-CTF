@@ -14,6 +14,7 @@ import HomePage from './HomePage'
 import Week2 from './Week2'
 import Week3 from './Week3'
 import Dir from './Dir';
+import DivsPage from './DivsPage';
 // import other challenge components
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         {/* Add more routes as needed */}
         <Route path="/final" element={<Week3 />} />
         <Route path="/final/directory" element={<Dir />} />
+        <Route path="/divspage" element={<DivsPage />} />
       </Routes>
     </Router>
   );
