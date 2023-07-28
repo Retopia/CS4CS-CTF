@@ -27,12 +27,15 @@ const MainPage = () => {
             {/* <div className={styles.challenge}>
                 <h2><Link to="/scav">Scavenger Hunt</Link></h2>
             </div> */}
-            <div className={styles.challenge}>
+            {/* <div className={styles.challenge}>
                 <h2><Link to="/chat">Chat</Link></h2>
-            </div>
+            </div> */}
             <div className={styles.challenge}>
-                <h2><Link to="/week2">Q&A</Link></h2>
+                <h2><Link to="/final">Week 3</Link></h2>
             </div>
+            {/* <div className={styles.challenge}>
+                <h2><Link to="/week2">Q&A</Link></h2>
+            </div> */}
             {/* <div className={styles.challenge}>
                 <h2><Link to="/challenge3">Challenge 3: Decoding the Asterisk Message</Link></h2>
                 <p>

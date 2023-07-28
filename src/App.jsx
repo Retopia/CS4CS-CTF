@@ -12,6 +12,8 @@ import Chat from './Chat'
 import Flag from './Flag'
 import HomePage from './HomePage'
 import Week2 from './Week2'
+import Week3 from './Week3'
+import Dir from './Dir';
 // import other challenge components
 
 function App() {
@@ -24,11 +26,13 @@ function App() {
         <Route path="/comptest" element={<CompatibilityTest />} />
         <Route path="/compscore" element={<CompatibilityScore />} /> */}
         {/* <Route path="/scav" element={<Scavenger />} /> */}
-        <Route path="/chat" element={<Chat />} />
-        <Route path="/chat/h3110" element={<Flag />} />
-        <Route path="/home" element={<HomePage />} />
-        <Route path="/week2" element={<Week2 />} />
+        {/* <Route path="/chat" element={<Chat />} /> */}
+        {/* <Route path="/chat/h3110" element={<Flag />} /> */}
+        {/* <Route path="/home" element={<HomePage />} /> */}
+        {/* <Route path="/week2" element={<Week2 />} /> */}
         {/* Add more routes as needed */}
+        <Route path="/final" element={<Week3 />} />
+        <Route path="/final/directory" element={<Dir />} />
       </Routes>
     </Router>
   );
